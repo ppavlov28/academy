@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    max-width: 1004px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: cornflowerblue;
+    width: 1004px;
+    height: 480px;
+}
+
+.content{
+    background-color: antiquewhite;
+    height: 1560px;
+}
+
+.about{
+    background-color: chartreuse;
+    height: 320px;
+}
+
+.service{
+    background-color: darkmagenta;
+    height: 750px;
+}
+
+.contacts{
+    background-color: cadetblue;
+    height: 490px;
+}
+
+footer{
+    background-color: black;
+    height: 86px;
+}
