@@ -9,6 +9,8 @@ body{
     margin: 0 auto;
 }
 
+/* === Header Section ===*/
+
 .main-header{
     max-width: 1004px;
     height: 486px;
@@ -58,3 +60,29 @@ body{
 .btn-social a:hover i{
     color: black;
 }
+
+/* === End Header Section === */
+
+/* ========================== */
+
+/* === Content Section === */
+
+.about{
+    padding-top: 60px;
+    height: 314px;
+//    outline: red solid 1px;
+    text-align: center;
+}
+
+.header-underline{
+    display: inline-block;
+    border-bottom: gray solid 2px;
+    padding: 10px;
+}
+.about p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: large;
+}
+
+
