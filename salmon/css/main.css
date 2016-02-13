@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.wrapper{
+    max-width: 1004px;
+    margin: 0 auto;
+}
+
+.main-header{
+    max-width: 1004px;
+    height: 486px;
+    background: url("../img/header-background.jpg") center no-repeat;
+    padding-top: 1px;
+}
+
+.logo{
+    width: 67px;
+    height: 64px;
+    margin: 86px auto 40px;
+}
+
+.name{
+    color: white;
+    text-align: center;
+}
+
+.salmon{
+    color: yellow;
+}
+
+.btn-social{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn-social a{
+    display: inline-block;
+    vertical-align: middle;
+    border: white solid 1px;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    color: white;
+}
+
+.btn-social a i{
+    line-height: 40px;
+}
+
+.btn-social a:hover{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.btn-social a:hover i{
+    color: black;
+}
