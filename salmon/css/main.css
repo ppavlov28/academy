@@ -4,6 +4,12 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+.clearfix:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+
 .wrapper{
     max-width: 1004px;
     margin: 0 auto;
@@ -41,11 +47,11 @@ body{
 .btn-social a{
     display: inline-block;
     vertical-align: middle;
-    border: white solid 1px;
-    width: 40px;
+    width: 46px;
     height: 40px;
     margin: 0 10px;
     color: white;
+    background: url("../img/header-hexagon.png") left no-repeat;
 }
 
 .btn-social a i{
@@ -53,8 +59,7 @@ body{
 }
 
 .btn-social a:hover{
-    background-color: yellow;
-    border-color: yellow;
+    background: url("../img/header-hexagon.png") right no-repeat;
 }
 
 .btn-social a:hover i{
@@ -120,7 +125,6 @@ body{
 .card a{
     display: inline-block;
     vertical-align: middle;
-//    border: green solid 1px;
     width: 60px;
     height: 52px;
     margin: -45px 10px 20px 10px;
@@ -136,3 +140,41 @@ body{
 .card a i{
     line-height: 52px;
 }
+
+/* === End Contacts Section === */
+/* ========================== */
+
+/* === Footer Section === */
+
+.main-footer{
+    background-color: #414141;
+    color: white;
+}
+
+.main-footer .col{
+    min-height: 100px;
+    float: left;
+    width: 33%;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.main-footer .col:last-child{
+    margin-right: 0;
+    text-align: right;
+}
+
+.footer-logo{
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    margin: 15px;
+}
+
+.copy{
+    font-size: small;
+    margin: 30px;
+}
+
