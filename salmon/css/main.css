@@ -62,14 +62,14 @@ body{
 }
 
 /* === End Header Section === */
-
 /* ========================== */
 
 /* === Content Section === */
 
 .about{
     padding-top: 60px;
-    height: 314px;
+    height: 277px;
+    background: url("../img/sfera.gif") center no-repeat;
 //    outline: red solid 1px;
     text-align: center;
 }
@@ -85,4 +85,54 @@ body{
     font-size: large;
 }
 
+/* === End Content Section === */
+/* ========================== */
 
+/* === Service Section === */
+
+.service{
+    height: 734px;
+    outline: blue solid 1px;
+    padding-top: 1px;
+    position: relative;
+}
+
+/* === End Service Section === */
+/* ========================== */
+
+/* === Contacts Section === */
+
+.contacts{
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+.card{
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    height: 120px;
+    margin: 20px 40px;
+    color: #414141;
+
+}
+
+.card a{
+    display: inline-block;
+    vertical-align: middle;
+//    border: green solid 1px;
+    width: 60px;
+    height: 52px;
+    margin: -45px 10px 20px 10px;
+    color: white;
+    background: url("../img/contacts-hexagon.png") left no-repeat;
+}
+
+.card a:hover{
+    background: url("../img/contacts-hexagon.png") right no-repeat;
+    color: #414141;
+}
+
+.card a i{
+    line-height: 52px;
+}
