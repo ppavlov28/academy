@@ -1,6 +1,7 @@
 .service{
     position: relative;
     min-height: 600px;
+//    background: url("../img/service-background.png") 50% 0 no-repeat;
 }
 
 .hexagon{
@@ -8,14 +9,17 @@
     height: 260px;
     margin: 10px auto;
     text-align: center;
-//    background-color: #80c8f7;
-//    background: url("../img/logo-sm.png") center no-repeat #80c8f7;
-    background-size: 200px;
+//    background-color: rgba(38, 56, 76, 0.4);
+    background: url("../img/work.png"),
+    url("../img/service-background.png") 50% 0 no-repeat #80c8f7;
+//    background-size: 200px;
+
     position: absolute;
 }
 
 .inner{
     position: absolute;
+    color: white;
     top: 30px;
     left: -15px;
     right: -15px;
@@ -42,9 +46,10 @@
     width: 300px;
     height: 260px;
 //  background-color: #80c8f7;
-//  background: url("../img/logo-sm.png") center no-repeat #80c8f7;
-    background-size: 200px;
-    transform: rotate(60deg) translate(-40px, 65px);
+  background:url("../img/work.png"),
+  url("../img/service-background.png") 50% 0 no-repeat #80c8f7;
+//    background-size: 200px;
+    transform: rotate(60deg) translate(-38px, 65px);
 }
 
 .hexagon-right {
@@ -67,14 +72,16 @@
     width: 300px;
     height: 260px;
 //  background-color: #80c8f7;
-//  background: url("../img/logo-sm.png") center no-repeat #80c8f7;
-    background-size: 200px;
-    transform: rotate(-60deg) translate(-40px, -65px);
+  background: url("../img/work.png"),
+  url("../img/service-background.png") 50% 0 no-repeat #80c8f7;
+//    background-size: 200px;
+    transform: rotate(-60deg) translate(-38px, -65px);
 }
 
 .work,
 .work .hexagon-left,
 .work .hexagon-right{
+//    background: url("../img/service-background.png") 50% 0 no-repeat;
     background-color: aliceblue;
 }
 
