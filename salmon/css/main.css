@@ -81,7 +81,7 @@ body{
 
 .header-underline{
     display: inline-block;
-    border-bottom: gray solid 2px;
+    border-bottom: white solid 2px;
     padding: 10px;
 }
 .about p{
