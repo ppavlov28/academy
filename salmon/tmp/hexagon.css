@@ -1,0 +1,192 @@
+
+
+/* === Стили для шестиугольников */
+/* Использовать для закомментированной разметки */
+/* Ниже рабочего кода нет */
+/*
+.hexagon{
+    width: 150px;
+    height: 260px;
+    margin: 10px auto;
+    text-align: center;
+//    background: url("../img/work.png"),
+                url("../img/service-background.png") 50% 0 no-repeat #80c8f7;
+    position: absolute;
+}
+
+.inner{
+    position: absolute;
+    color: white;
+    top: 30px;
+    left: -15px;
+    right: -15px;
+//    border: red solid 1px;
+    z-index: 500;
+}
+
+.hexagon-left{
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    top: 0;
+    left: 0;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    z-index: -2;
+}
+
+.hexagon-left:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 260px;
+//    background:  url("../img/work.png"),
+                 url("../img/service-background.png") 50% 0 no-repeat #80c8f7;
+    transform: rotate(60deg) translate(-38px, 65px);
+}
+
+.hexagon-right {
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    top: 0;
+    left: 0;
+    transform: rotate(60deg);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.hexagon-right:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 260px;
+//    background: url("../img/work.png"),
+                url("../img/service-background.png") 50% 0 no-repeat #80c8f7;
+    transform: rotate(-60deg) translate(-38px, -65px);
+}
+
+.hexagon.work,
+.work .hexagon-left:before,
+.work .hexagon-right:before{
+     background: url("../img/work.png"),
+                 url("../img/service-background.png") 50% 0 no-repeat;
+}
+
+.hexagon.analyze,
+.analyze .hexagon-left:before,
+.analyze .hexagon-right:before{
+    background: url("../img/work.png"),
+    url("../img/service-background.png") 50% 0 no-repeat;
+}
+
+.hexagon.plan,
+.plan .hexagon-left:before,
+.plan .hexagon-right:before{
+    background: url("../img/work.png"),
+    url("../img/service-background.png") 50% 0 no-repeat;
+}
+
+.hexagon.place,
+.place .hexagon-left:before,
+.place .hexagon-right:before{
+    background: url("../img/work.png"),
+    url("../img/service-background.png") 50% 0 no-repeat;
+}
+
+.work{
+    left: 50%;
+    margin-left: -75px;
+}
+
+.place{
+    left: 50%;
+    margin-left: -75px;
+    top: 270px;
+}
+
+.analyze{
+    left: 50%;
+    top: 135px;
+    margin-left: -305px;
+}
+
+.plan{
+    left: 50%;
+    top: 135px;
+    margin-left: 155px;
+}
+
+@media screen and (max-width: 790px){
+    .service{
+        min-height: 740px;
+    }
+
+    .work{
+        left: 35%;
+        margin-left: -75px;
+        background-color: aliceblue;
+    }
+
+
+    .work .inner{
+        display: block;
+        color: black;
+    }
+
+    .work .hexagon-left{
+        background-color: aliceblue;
+    }
+
+    .analyze{
+        left: 35%;
+        top: 140px;
+        margin-left: 160px;
+    }
+
+    .place{
+        left: 35%;
+        margin-left: 160px;
+        top: 420px;
+    }
+
+    .plan{
+        left: 35%;
+        top: 280px;
+        margin-left: -75px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .service{
+        min-height:1160px;
+    }
+
+    .work{
+        left: 37%;
+        margin-left: 0;
+    }
+
+    .analyze{
+        left: 37%;
+        top: 280px;
+        margin-left: 0;
+    }
+
+    .place{
+        left: 37%;
+        margin-left: 0;
+        top: 840px;
+    }
+
+    .plan{
+        left: 37%;
+        top: 560px;
+        margin-left: 0;
+    }
+}
+*/
