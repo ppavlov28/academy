@@ -1,7 +1,12 @@
 .service{
+    padding-top: 1px;
     position: relative;
-    min-height: 681px;
+    height: 681px;
     background: url("../img/services-hexagon.png") 50% 0 no-repeat;
+}
+
+.service h3{
+    margin: 0;
 }
 
 .t-box{
@@ -35,4 +40,35 @@
     left: 50%;
     top: 218px;
     margin-left: 138px;
+}
+
+@media screen and (max-width: 768px){
+    .service{
+        background: none;
+        height: auto;
+    }
+
+    .t-box{
+        position: static;
+        margin: 0;
+        color: white;
+        width: auto;
+        height: 110px;
+    }
+
+    .work-text{
+        background-color: #282828;
+    }
+
+    .analyze-text{
+        background-color: #0C362E;
+    }
+
+    .plan-text{
+        background-color: #3D4349;
+    }
+
+    .place-text{
+        background-color: #364352;
+    }
 }
