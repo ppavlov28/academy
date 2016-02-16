@@ -1,0 +1,69 @@
+.container{
+    width:800px;
+//    height: 800px;
+    margin: 0 auto;
+}
+
+
+.hex {
+    width: 150px;
+    height: 260px;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 180px;
+//    border-top: red solid 3px;
+//    border-bottom: red solid 3px;
+    position: relative;
+    float: left;
+    margin: 25px 5px;
+    text-align: center;
+    zoom: 1;
+}
+
+.hex .corner-1, .hex .corner-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-top: inherit;
+    border-bottom: inherit;
+    z-index: -2;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.hex .corner-1 {
+    z-index: -1;
+    transform: rotate(60deg);
+}
+
+.hex .corner-2 {
+    transform: rotate(-60deg);
+}
+
+.hex .corner-1:before, .hex .corner-2:before {
+    width: 170px;
+    height: 170px;
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: inherit;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+}
+
+.hex .corner-1:before {
+    transform: rotate(-60deg) translate(-160px, 46px);
+    transform-origin: 0 0;
+}
+
+.hex .corner-2:before {
+    transform: rotate(60deg) translate(34px, 30px);
+    bottom: 0;
+}

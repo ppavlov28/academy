@@ -96,7 +96,7 @@ body{
 /* === Service Section === */
 
 .service{
-    height: 734px;
+    max-height: 734px;
     outline: blue solid 1px;
     padding-top: 1px;
     position: relative;
@@ -141,6 +141,10 @@ body{
     line-height: 52px;
 }
 
+.map{
+    width: 100%;
+}
+
 /* === End Contacts Section === */
 /* ========================== */
 
@@ -154,7 +158,7 @@ body{
 .main-footer .col{
     min-height: 100px;
     float: left;
-    width: 33%;
+    min-width: 33%;
     margin-right: 5px;
     text-align: center;
 }
@@ -177,4 +181,3 @@ body{
     font-size: small;
     margin: 30px;
 }
-
