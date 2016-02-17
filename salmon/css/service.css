@@ -42,7 +42,8 @@
     margin-left: 138px;
 }
 
-@media screen and (max-width: 768px){
+@media only screen
+and (max-width: 768px){
     /* Изменяем секцию Service */
     .service{
         background: url("../img/service-background.png") 50% 0 no-repeat;
@@ -89,7 +90,4 @@
     .place-text{
         background-color: rgba(54, 67, 82, 0.9);
     }
-
-    /* Изменяем секцию Contacts */
-
 }
